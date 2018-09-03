@@ -6,16 +6,14 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <h1>giphy</h1>
+        <p>search keyword: <input></input></p>
+        <p>amount of gifs shown: <input></input></p>
+        <button>show me the gifs</button>
       </div>
     );
   }
 }
 
 export default App;
+ 
